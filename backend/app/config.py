@@ -28,7 +28,7 @@ class Settings(BaseSettings):
     # ------------------------------------------------------------------ #
     # Hugging Face Inference API                                           #
     # ------------------------------------------------------------------ #
-    HF_API_KEY: str = Field(..., env="HF_API_KEY")
+    HF_API_KEY: str = Field(default="", env="HF_API_KEY")
     GROQ_API_KEY: str = Field(..., env="GROQ_API_KEY")
     # Default model — can be overridden per-request
     HF_MODEL: str = Field(
