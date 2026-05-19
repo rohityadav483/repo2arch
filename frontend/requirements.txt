@@ -1,0 +1,15 @@
+# Repo2Arch — frontend dependencies
+# Install: pip install -r requirements.txt
+
+# UI framework
+streamlit==1.35.0
+
+# Graph visualization
+pyvis==0.3.2
+plotly==5.22.0
+
+# HTTP client (calls FastAPI backend)
+requests==2.32.2
+
+# Environment variables
+python-dotenv==1.0.1

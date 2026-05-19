@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual envs
+venv/
+.venv/
+env/
+
+# Environment files — NEVER commit these
+.env
+backend/.env
+frontend/.env
+
+# Cloned repos (runtime artefacts)
+/tmp/repo2arch_clones/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
